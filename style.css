@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 body {
-    /* background: rgb(246, 248, 249); */
-    background: lightgreen;
+    background: rgb(246, 248, 249);
+    /* background: orangered; */
 }
 
 header {
@@ -21,17 +22,45 @@ header {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
     margin-top: 25px;
     margin-left: 20px;
     vertical-align: middle;
 }
 
 .logo-text {
-    font-size: 34px;
-    font-weight: 900;
     margin-top: 25px;
+    font-size: 34px;
+    font-weight: bolder;
     vertical-align: middle;
+}
+
+.tool-container {
+    width: 850px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+}
+
+.first-button, .second-button {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.first-button {
+    margin-left: 30px;
+    color: white;
+    background: rgb(95, 173, 235);
+}
+
+.second-button {
+    margin-left: 5px;
+    color: lightgrey;
+    background: white;
 }
 
