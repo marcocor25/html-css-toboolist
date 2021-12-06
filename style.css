@@ -48,19 +48,20 @@ header {
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    border: 2px solid lightgrey;
     border-radius: 5px;
 }
 
 .first-button {
     margin-left: 30px;
     color: white;
+    border: 1px solid rgb(95, 173, 235);
     background: rgb(95, 173, 235);
 }
 
 .second-button {
     margin-left: 5px;
     color: lightgrey;
+    border: 1px solid lightgrey;
     background: white;
 }
 
@@ -91,7 +92,7 @@ header {
     margin-left: 5px;
 }
 
-.done {
+#done {
     padding: 4px;
     font-size: 10px;
     color: rgb(0, 200, 0);
@@ -99,10 +100,44 @@ header {
     border-radius: 100%;
 }
 
-.not-done {
+#not-done {
     padding: 4px;
     font-size: 10px;
     color: red;
     border: 1px solid red;
     border-radius: 50%;
 }
+
+.category {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+    border-radius: 20px;
+}
+
+#editorial {
+    background: rgb(93, 111, 229);
+}
+
+#q1-goals {
+    background: rgb(148, 120, 221);
+}
+
+#recruiting {
+    background: rgb(122, 170, 190);
+}
+
+#mobile {
+    background: rgb(225, 155, 73);
+}
+
+#website {
+background: rgb(198, 107, 157);
+}
+
+#sales {
+    background: rgb(182, 198, 73);
+}
+
+/* Fine */
